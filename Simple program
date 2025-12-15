@@ -1,0 +1,33 @@
+# Taking input from user
+name = input("Enter your first name: ")
+age = int(input("Enter your age: "))
+address = input("Enter your address: ")
+contact = input("Enter your contact number: ")
+height = float(input("Enter your height: "))
+
+# Displaying output in a single line
+print(f"Name: {name}, Age: {age}, Address: {address}, Contact: {contact}, Height: {height}")
+or else 
+print("HELLO",name,"your age is",age,"you live in",address,"Your contact number is",contact,"and your height is=",height)
+
+
+OUTPUT
+Enter your first name: Abiskar
+Enter your age: 21
+Enter your address: Kathmandu
+Enter your contact number: 98XXXXXXXX
+Enter your height: 5.7
+Name: Abiskar, Age: 21, Address: Kathmandu, Contact: 98XXXXXXXX, Height: 5.7
+
+
+
+#Wap to calculate the surface area of cuboid
+# WAP to calculate the surface area of a cuboid
+
+length = float(input("Enter length: "))
+breadth = float(input("Enter breadth: "))
+height = float(input("Enter height: "))
+
+surface_area = 2 * (length * breadth + breadth * height + height * length)
+
+print("Surface Area of Cuboid =", surface_area)
