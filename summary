@@ -1,0 +1,48 @@
+# -----------------------------------
+# PRE-DEFINED (DECLARED) VALUES
+# -----------------------------------
+
+name = "Abiskar"        # String
+age = 21                # Integer
+height = 5.7            # Float
+is_student = True       # Boolean
+
+# NEW STRING FORMATTING (f-string)
+print("Pre-defined values (Using f-string):")
+print(f"Name: {name}, Age: {age}, Height: {height}, Student: {is_student}")
+
+print("\n-----------------------------------\n")
+
+# -----------------------------------
+# USER-DEFINED INPUT
+# -----------------------------------
+
+user_name = input("Enter your name: ")          # String input
+user_age = int(input("Enter your age: "))       # Integer input
+user_height = float(input("Enter your height: "))  # Float input
+user_student = input("Are you a student? (yes/no): ")
+
+# Converting user input to Boolean
+is_user_student = user_student.lower() == "yes"
+
+# OLD STRING FORMATTING (% style)
+print("\nUser-defined values (Using old formatting):")
+print("Name: %s, Age: %d, Height: %.2f, Student: %s" %
+      (user_name, user_age, user_height, is_user_student))
+
+print("\n-----------------------------------\n")
+
+# -----------------------------------
+# COMPARISON OF OLD VS NEW FORMATTING
+# -----------------------------------
+
+print("Comparison of formatting styles:")
+
+# Old formatting
+print("OLD STYLE -> Name: %s | Age: %d" % (user_name, user_age))
+
+# New formatting
+fm=f"Name: {user_name} | Age: {user_age}"
+print(fm)
+#or
+print(f"NEW STYLE -> Name: {user_name} | Age: {user_age}")
