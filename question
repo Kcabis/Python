@@ -24,3 +24,40 @@ a="hello"
 a=4
 print(a)
 print(type(a))
+
+
+# Assignment operator
+a = 10
+b = 5
+
+# Relational operators
+is_greater = a > b
+is_equal = a == b
+
+# Logical operators
+result1 = (a > b) and (b < 10)
+result2 = (a == b) or (a > b)
+result3 = not (a < b)
+
+# Printing results
+print("Value of a:", a)
+print("Value of b:", b)
+
+print("\na > b :", is_greater)
+print("a == b :", is_equal)
+
+print("\n(a > b) and (b < 10) :", result1)
+print("(a == b) or (a > b) :", result2)
+print("not (a < b) :", result3)
+
+#output
+Value of a: 10
+Value of b: 5
+
+a > b : True
+a == b : False
+
+(a > b) and (b < 10) : True
+(a == b) or (a > b) : True
+not (a < b) : True
+
