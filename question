@@ -16,3 +16,11 @@ b+=2
 print(b)
 print(b+A)
 
+#variables
+a="hello"
+a='''hello'''
+print(type(a))
+a="hello"
+a=4
+print(a)
+print(type(a))
