@@ -1,0 +1,11 @@
+#program to check voting eligibility based on age and citizenship
+age = int(input("Enter age: "))
+citizen = input("Are you a citizen? (yes/no): ")
+
+if age >= 18:
+    if citizen == "yes":
+        print("Eligible to vote")
+    else:
+        print("Not a citizen")
+else:
+    print("Under age")
